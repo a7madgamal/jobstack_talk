@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "moduleDetection": "force",
+    // "strict": true,
+
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+
+    // note: noUncheckedIndexedAccess needs strictNullChecks!
+    // "noUncheckedIndexedAccess": true,
+
+    "noUnusedLocals": false,
+    // "noUnusedParameters": true,
+    // "useUnknownInCatchVariables": true,
+
+    // "noPropertyAccessFromIndexSignature": true,
+    // "allowUnreachableCode": true,
+    // "allowUnusedLabels": true,
+    // "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    // "noImplicitOverride": true,
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
+    // "strictBindCallApply": true,
+    // "strictFunctionTypes": true,
+    // "strictPropertyInitialization": true,
+    // "alwaysStrict": true,
+    "noEmit": true
+  },
+  "include": ["talk"]
+}
